@@ -1,17 +1,19 @@
 .myWorks {
-    height: 60vh;
+
     background-color: #F1E2FF;
 }
 
 /*All container my works*/
 .myWorksContainer {
     border: 1px solid;
-    height: 100%;
+    min-height: 100vh;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
 /* Container width 80%*/
@@ -23,7 +25,6 @@
 
 /*Container where saving my works*/
 .allMyWorks {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -32,38 +33,29 @@
 /*Container of works */
 .work {
     width: 400px;
-    height: 350px;
     border: 1px solid;
 }
 
 /*Container with first Project*/
 .photoProject {
     width: 100%;
-    height: 70%;
-    background-color: #cabebe;
+    height:200px;
+    background-color: #d78b8b;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 /*Container with Photo Project*/
-.photoProject img {
-    width: 100%;
-    height: 100%;
 
-}
 /*Photo Project*/
 
 .showProject {
-    position: absolute;
-    text-align: center;
     width: 70px;
     background-color: #86878a;
     border: 1px solid;
     font-size:25px;
 }
-
 /*Container with Link on my Project */
-
 .showProject a {
     text-decoration: none;
     color:white;
@@ -75,7 +67,6 @@
 /*Container of Info Project*/
 
 .textProject{
-    border: 1px solid;
     width:100%;
     height:80px;
     text-align: left;

@@ -8,17 +8,21 @@ function Skills() {
                     <h3>My skills</h3>
                     <div className={s.allSkills}>
                         <div className={s.skillOne}>
-                            <img></img>
                             <h4>HTML</h4>
                             <p>About HTML language</p>
                         </div>
                         <div className={s.skillTwo}>
-                            <img></img>
+
                             <h4>CSS</h4>
-                            <p>About CSS language</p>
+                            <p>About CSCSS langCSS
+                                langCSS langCSS langCSS lang
+                                langCSS langCSS langCSS lang
+                                langCSS langCSS langCSS lang
+                                langCSS langCSS langCSS lang
+                                S language</p>
                         </div>
                         <div className={s.skillThree}>
-                            <img></img>
+
                             <h4>JS</h4>
                             <p>About JS language</p>
                         </div>

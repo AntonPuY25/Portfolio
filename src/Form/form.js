@@ -1,9 +1,10 @@
 import {Field, reduxForm} from "redux-form";
+import s from './form.module.css'
 
 
 const ReduxForm = (props)=>{
     return<>
-            <form onSubmit={props.handleSubmit}>
+            <form onSubmit={props.handleSubmit} className={s.formik}>
                 <div>
                     <Field component={'input'} placeholder='Name' name='name'/>
                 </div>

@@ -6,13 +6,11 @@ function FormComponent() {
         <div className={s.form}>
             <div className={s.formContainer}>
 
-                    <div>Контакты</div>
+                    <h2>Контакты</h2>
 
-                    <div>
+                    <div className={s.formik}>
                       <ResultForm/>
-
                     </div>
-                    <div>Отправить</div>
 
 
             </div>

@@ -9,8 +9,7 @@ function MyWorks() {
                     <div className={s.allMyWorks}>
                         <div className={s.work}>
                             <div className={s.photoProject}>
-                                <img alt={'Photo Project'} src={
-                                    ('https://arte1.ru/images/detailed/4/23608.jpg')}/>
+
                                 <div className={s.showProject}>
                                     <a href={"#"}>Show</a>
                                 </div>
@@ -32,8 +31,7 @@ function MyWorks() {
 
                         <div className={s.work}>
                             <div className={s.photoProject}>
-                                <img alt={'Photo Project'} src={
-                                    ('https://arte1.ru/images/detailed/4/23608.jpg')}/>
+
                                 <div className={s.showProject}>
                                     <a href={"#"}>Show</a>
                                 </div>
