@@ -1,6 +1,7 @@
 .myWorks {
 
     background-color: #F1E2FF;
+
 }
 
 /*All container my works*/
@@ -12,15 +13,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
 
 }
 
 /* Container width 80%*/
 .works {
+
     border: 1px solid;
     width: 100%;
     text-align: center;
+
 }
 
 /*Container where saving my works*/
@@ -28,6 +30,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /*Container of works */
