@@ -1,5 +1,9 @@
-import s from './main.module.css'
+import s from './main.module.scss'
+import ava from '../img/ava.jpg'
 function Main() {
+    const avaPhoto = {
+        backgroundImage: 'url(' + ava + ')',
+    };
     return (
         <div className={s.main}>
          <div className={s.mainContainer}>
@@ -8,7 +12,7 @@ function Main() {
                     <h1>I am Anton</h1>
                     <p>I am Fronted-Developer.</p>
                 </div>
-                <div className={s.myPhoto}>
+                <div className={s.myPhoto} style={avaPhoto} >
 
                 </div>
          </div>

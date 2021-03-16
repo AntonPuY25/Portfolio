@@ -1,0 +1,70 @@
+@import '../Styles/variableSass/variable';
+@import '../Styles/variableSass/mixins';
+
+
+.work {
+
+  @include test(500px);
+
+
+  .photoProject {
+    width: 100%;
+    height: 300px;
+    background-color: #d78b8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    position: relative;
+      &:before{
+        position: absolute;
+        background-color:$backGroundColor;
+        content:"";
+        width: 100%;
+        height: 100%;
+        opacity:0.4;
+      }
+    .showProject {
+      width: 70px;
+      background-color: $backGroundColorButton;
+      border: 1px solid;
+      font-size: 25px;
+      position: absolute;
+
+    }
+
+    .showProject a {
+      text-decoration: none;
+      color: $textColor;
+    }
+  }
+
+  .infoProject {
+    background-color: $backGroundColor2;
+
+    .titleProject {
+      font-weight: bold;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      font-family: Poppins, sans-serif;
+      color:$textColor;
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+
+    }
+
+    .textProject {
+      padding: 10px;
+      text-align: left;
+      background-color: $backGroundColor2;
+      display: flex;
+      flex-direction: column;
+      color:$textColor;
+      font-weight: 500;
+      line-height: 1.8;
+      font-family: "Poppins", sans-serif;
+    }
+  }
+
+}
