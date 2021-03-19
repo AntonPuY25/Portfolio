@@ -40,7 +40,7 @@
   }
 
   .infoProject {
-    background-color: $backGroundColor2;
+    background-color: $textColor2;
 
     .titleProject {
       font-weight: bold;
@@ -57,7 +57,7 @@
     .textProject {
       padding: 10px;
       text-align: left;
-      background-color: $backGroundColor2;
+      background-color: $textColor2;
       display: flex;
       flex-direction: column;
       color:$textColor;

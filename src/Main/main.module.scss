@@ -1,56 +1,54 @@
 @import './src/Styles/variableSass/variable';
-.main{
-    height:100vh;
-    background-color:$backGroundColor;
-    .mainContainer{
-        border:1px solid;
-        height:100%;
-        margin:0 auto;
-        width: 70%;
-        display:flex;
-        align-items: center;
-        justify-content:space-around;
-        flex-wrap: wrap;
-        .aboutMe{
-            display:flex;
-            flex-direction:column;
-            text-align: center;
-            width:300px;
-            span{
-                font-size:22px;
-                color:$textColor;
-                line-height: 1.8;
-                font-family: "Poppins", sans-serif;
-                font-weight: 400;
-                left:50px;
-                text-align: left;
-            }
-            h1{
-                font-weight: 700;
-                font-size: 40px;
-                line-height: 1.2;
-                font-family: "Josefin Sans", sans-serif;
-                letter-spacing: 5px;
-                margin: 0;
-                color: $textColor;
-            }
-            p{
-                text-align: left;
-                font-weight: 400;
-                font-size: 22px;
-                line-height: 1.8;
-                font-family: Poppins, sans-serif;
-                color: #fff;
-            }
-        }
-        .myPhoto{
-            width:300px;
-            height:400px;
-            background-size:cover;
 
+.main {
+  background-color: $backGroundColor;
+  display: flex;
+  flex-direction: column;
 
-        }
+  .aboutMe {
+    text-align: center;
+    color: $textColor2;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: nowrap;
+  }
+
+  .containerAboutMe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    .myPhoto {
+     margin-left: 10%;
+      padding:20px;
+      img {
+        width: 400px;
+        height: 450px;
+      }
     }
+
+    .aboutMeInfo {
+      padding: 45px;
+      font-family: 'Poppins', sans-serif;
+      width: 60%;
+      margin-right: 15%;
+      line-height: 22px;
+      font-style: normal;
+      font-size:18px;
+    }
+    .buttonAboutMe{
+      position: relative;
+      text-align: right;
+      top:50px;
+      right: 50px;
+      button{
+        padding: 15px;
+      }
+    }
+  }
+
 }
 
 
