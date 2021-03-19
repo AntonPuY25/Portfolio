@@ -1,12 +1,20 @@
-import s from './nav.module.css'
+import s from './nav.module.scss';
+import logo from '../../img/portfolio.png'
 function Nav() {
     return (
-        <div className={s.nav}>
-            <a href='/23r'>Главная</a>
-            <a href='/23r'>Скилы</a>
-            <a href='/23r'>Работы</a>
-            <a href='/23r'>Контакты</a>
+        <div className={s.navContainer}>
+            <div className={s.logo} >
+                <img src={logo} alt={"logo"}/>
+            </div>
+            <div className={s.nav}>
+                <a href='/23r'>Home</a>
+                <a href='/23r'>About</a>
+                <a href='/23r'>Skills</a>
+                <a href='/23r'>Projects</a>
+                <a href='/23r'>Contact</a>
+            </div>
         </div>
+
     );
 }
 
