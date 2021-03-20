@@ -1,18 +1,7 @@
-
-.skill{
-  width: 250px;
-  border: 1px solid;
-  background-color: #e0dada;
-  .levelSkill{
-    width: 250px;
-    height: 250px;
-    padding: 40px;
-
-  }
-  img {
-    background-color: #cabebe;
-    width: 50px;
-    height: 50px;
-  }
+.skill {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
 }
 

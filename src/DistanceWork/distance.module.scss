@@ -1,19 +1,19 @@
+@import '../Styles/variableSass/variable';
 .distance{
     width:100%;
-    height:40vh;
-    background-color: #FFFEEC;
+    height:20vh;
+    background-color:$backGroundColor2;
     display: flex;
+    flex-direction:row;
     align-items: center;
 }
 .distanceContainer {
-    border: 1px solid;
     margin: 0 auto;
     width: 70%;
     text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .btnDistance button{
-padding: 15px;
+padding: 10px;
 }

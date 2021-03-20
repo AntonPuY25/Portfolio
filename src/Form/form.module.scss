@@ -1,0 +1,46 @@
+@import '../Styles/variableSass/variable';
+
+.form {
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom:50px;
+}
+
+.formContainer {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.formik {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  .formName {
+    margin: 10px 10px;
+
+    input {
+      width: 350px;
+    }
+
+  }
+
+  .formSubject {
+    margin: 10px 10px;
+
+    input {
+      width: 730px;
+    }
+  }
+
+  .formMessage {
+    margin: 10px 10px;
+
+    textarea {
+      width: 730px;
+      height: 150px;
+    }
+  }
+}

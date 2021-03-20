@@ -6,11 +6,9 @@
 
   @include test(500px);
 
-
   .photoProject {
     width: 100%;
     height: 300px;
-    background-color: #d78b8b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +25,6 @@
     .showProject {
       width: 70px;
       background-color: $backGroundColorButton;
-      border: 1px solid;
       font-size: 25px;
       position: absolute;
 
@@ -40,7 +37,7 @@
   }
 
   .infoProject {
-    background-color: $textColor2;
+    background-color: $backGroundColor2;
 
     .titleProject {
       font-weight: bold;
@@ -48,7 +45,7 @@
       display: flex;
       justify-content: center;
       font-family: Poppins, sans-serif;
-      color:$textColor;
+      color:$textColor2;
       letter-spacing: 1px;
       margin: 0 0 5px;
 
@@ -57,10 +54,10 @@
     .textProject {
       padding: 10px;
       text-align: left;
-      background-color: $textColor2;
+      background-color: $backGroundColor2;
       display: flex;
       flex-direction: column;
-      color:$textColor;
+      color:$textColor2;
       font-weight: 500;
       line-height: 1.8;
       font-family: "Poppins", sans-serif;
