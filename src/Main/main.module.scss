@@ -4,7 +4,7 @@
   background-color: $backGroundColor;
   display: flex;
   flex-direction: column;
-
+  width: 100%;
   .aboutMe {
     text-align: center;
     color: $textColor2;
@@ -12,6 +12,7 @@
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     flex-wrap: nowrap;
+
   }
 
   .containerAboutMe {
@@ -20,6 +21,11 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     margin-bottom: 70px;
+    @media screen and (max-width: 1490px) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
     .myPhoto {
      margin-left: 10%;
       padding:20px;
@@ -37,6 +43,9 @@
       line-height: 22px;
       font-style: normal;
       font-size:18px;
+      @media screen and (max-width: 1490px) {
+        width: 100%;
+      }
     }
     .buttonAboutMe{
       position: relative;
@@ -45,6 +54,7 @@
       right: 50px;
       button{
         padding: 15px;
+
       }
     }
   }

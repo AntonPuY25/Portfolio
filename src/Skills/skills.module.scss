@@ -1,13 +1,33 @@
 @import '../Styles/variableSass/variable';
-.skillsContainer{
-  width: 100%;
-  background-color:$backGroundColor2;
 
-  h1{
-   padding: 20px;
+.skillsContainer {
+  width: 100%;
+  background-color: $backGroundColor2;
+
+  h1 {
+    padding: 20px;
     text-align: center;
+    position: relative;
+    &::before {
+      position: absolute;
+      height:1px;
+      content: "";
+      background-color: black;
+      width: 60px;
+      bottom: -20px;
+      text-align:center;
+      left:50%;
+      transform: translate(-50%,50%);
+    }
   }
-  .skills{
+  p{
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+
+  .skills {
     margin-top: 3%;
     display: flex;
     flex-direction: row;

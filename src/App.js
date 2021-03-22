@@ -1,4 +1,3 @@
-import './App.css';
 import Header from "./Header/header";
 import Main from "./Main/main";
 import Skills from "./Skills/skills";
@@ -8,8 +7,10 @@ import FormComponent from "./Form/formComponent";
 import Footer from "./Footer/footer";
 
 function App() {
+
     return (
-        <div>
+
+    <div>
             <Header/>
             <Main/>
             <Skills/>
@@ -17,7 +18,9 @@ function App() {
             <Distance/>
             <FormComponent/>
             <Footer/>
-        </div>
+
+
+    </div>
     );
 }
 

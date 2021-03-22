@@ -8,7 +8,6 @@
             text-align: center;
             .title{
                 margin-bottom: 30px;
-                font-weight: 300;
                 text-transform: capitalize;
                 position:relative;
                 color:$textColor2;
@@ -16,9 +15,21 @@
                 font-family: "Josefin Sans", sans-serif;
                 line-height: 1.2;
                 letter-spacing: 5px;
+                &::before {
+                    position: absolute;
+                    height:1px;
+                    content: "";
+                    background-color: black;
+                    width: 60px;
+                    bottom: -20px;
+                    text-align:center;
+                    left:50%;
+                    transform: translate(-50%,50%);
+                }
                 h3{
                     margin: 0 0 30px;
                     font-size:36px;
+
                 }
 
 
@@ -26,7 +37,6 @@
 
         }
         .allMyWorks {
-            margin-top: 50px;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
