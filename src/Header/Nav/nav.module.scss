@@ -1,15 +1,26 @@
 @import '../../Styles/variableSass/variable';
 .navContainer{
+  a {
+    text-decoration: none;
+  }
   display: flex;
   justify-content: space-around;
   flex-wrap:nowrap;
   align-items: center;
   width: 100%;
   height:20%;
+  @media screen and (max-width: 1000px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+  }
   .logo{
     img{
       width:250px;
+      @media screen and (max-width: 1000px) {
+        width:150px;
+      }
     }
   }
   .nav {
@@ -17,18 +28,26 @@
     line-height: 22px;
     font-style: normal;
     font-size: 14px;
-    @media screen and (max-width: 1490px) {
-      text-align: center;
+    @media screen and (max-width: 1000px) {
+      display: none;
     }
     a {
-      text-decoration: none;
       color: $textColor;
       font-size: 22px;
       line-height: 22px;
       padding: 30px 7.5px;
-      margin-left: 7.5px;
-      margin-right: 7.5px;
+      margin:0 7.5px;
 
+
+    }
+
+  }
+  .mobileMenu{
+    display: none;
+    color: $textColor;
+    @media screen and (max-width: 1000px) {
+      display: block;
+      color: $textColor;
 
     }
   }

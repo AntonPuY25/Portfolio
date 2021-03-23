@@ -1,5 +1,6 @@
 import s from './nav.module.scss';
 import logo from '../../img/portfolio.png'
+import MenuPopupState from "./navMobile";
 function Nav() {
     return (
         <div className={s.navContainer}>
@@ -12,6 +13,10 @@ function Nav() {
                 <a href='/23r'>Skills</a>
                 <a href='/23r'>Projects</a>
                 <a href='/23r'>Contact</a>
+            </div>
+            <div className={s.mobileMenu}>
+                <MenuPopupState/>
+
             </div>
         </div>
 

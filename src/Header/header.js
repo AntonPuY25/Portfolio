@@ -10,26 +10,25 @@ function Header() {
     return (
         <div className={s.header}>
 
-               <Nav/>
+            <Nav/>
 
-                <div className={s.headerInfo}>
-                   <div className={s.hello}>
-                       <h3>Hello I'm</h3>
-                   </div>
-                    <div className={s.name}>
-                        <h1>Anton Kliaschonak</h1>
-                    </div>
-                    <div className={s.headerIcons}>
+            <div className={s.headerInfo}>
 
-                        <a href={'/#'}><img src={facebook} alt={'facebook'}/></a>
-                              <a href={'/#'}><img src={mail} alt={'mail'}/></a>
-                              <a href={'/#'}><img src={git} alt={'Git'}/></a>
-                              <a href={'/#'}><img src={vk} alt={'vk'}/></a>
-                              <a href={'/#'}><img src={linkedin} alt={'linkedin'}/></a>
+                <h3 className={s.hello}>Hello I'm</h3>
 
-                    </div>
+                <div className={s.name}>
+                    <h1>Anton Kliaschonak</h1>
+                </div>
+                <div className={s.headerIcons}>
+                    <a href={'/#'}><img src={facebook} alt={'facebook'}/></a>
+                    <a href={'/#'}><img src={mail} alt={'mail'}/></a>
+                    <a href={'/#'}><img src={git} alt={'Git'}/></a>
+                    <a href={'/#'}><img src={vk} alt={'vk'}/></a>
+                    <a href={'/#'}><img src={linkedin} alt={'linkedin'}/></a>
 
                 </div>
+
+            </div>
 
         </div>
     );

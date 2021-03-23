@@ -32,6 +32,10 @@
 
     input {
       width: 730px;
+      @media screen and (max-width: 1000px) {
+        width: 350px;
+
+      }
     }
   }
 
@@ -41,6 +45,11 @@
     textarea {
       width: 730px;
       height: 150px;
+      @media screen and (max-width: 1000px) {
+        width: 350px;
+        height: 150px;
+
+      }
     }
   }
 }
