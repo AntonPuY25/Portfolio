@@ -31,7 +31,7 @@ function Main() {
                 </div>
                 <div className={s.aboutMeInfo}>
                     <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Massa tempor nec feugiat nisl pretium fusce id velit ut. Neque vitae tempus quam pellentesque nec nam. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. </b>
-                    <br/> <br/> <br/>
+                    <br/> <br/>
                     Amet mattis vulputate enim nulla. Porttitor leo a diam sollicitudin tempor id. Scelerisque viverra mauris in aliquam sem. Mattis aliquam faucibus purus in massa tempor nec. Quisque id diam vel quam elementum pulvinar etiam non. Non curabitur gravida arcu ac tortor. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida.
                     <div className={s.buttonAboutMe}>
                         <section className="wow slideInRight">
