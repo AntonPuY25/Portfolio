@@ -4,7 +4,7 @@ import {Animated} from "react-animated-css";
 
 function Skills() {
     return (
-        <div className={s.skillsContainer}>
+        <div className={s.skillsContainer} id='skills'>
 
             <section className="wow slideInLeft">
                 <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>  <div>

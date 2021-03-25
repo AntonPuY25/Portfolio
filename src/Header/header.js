@@ -7,8 +7,9 @@ import vk from '../img/icons/vk.png'
 import linkedin from '../img/icons/linkedin.png'
 
 function Header() {
+
     return (
-        <div className={s.header}>
+        <div className={s.header} id='home'>
 
             <Nav/>
 

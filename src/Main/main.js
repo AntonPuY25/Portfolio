@@ -5,6 +5,7 @@ import {Animated} from "react-animated-css";
 import {useEffect} from "react";
 import WOW from "wowjs";
 
+
 function Main() {
     useEffect(()=>{
 
@@ -14,7 +15,7 @@ function Main() {
 
     },[])
     return (
-        <div className={s.main}>
+        <div className={s.main} id='about'>
 
             <div className={s.aboutMe}>
                 <section className="wow slideInLeft">
@@ -41,6 +42,9 @@ function Main() {
                                 </Button>
                             </div>  </Animated>
                         </section>
+
+
+
 
                     </div>
                 </div>

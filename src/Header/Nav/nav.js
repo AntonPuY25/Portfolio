@@ -1,18 +1,29 @@
 import s from './nav.module.scss';
 import logo from '../../img/portfolio.png'
 import MenuPopupState from "./navMobile";
+
+export const functest = (event) => {
+    event.preventDefault();
+
+    document.querySelector("" + event.currentTarget.hash).scrollIntoView({
+        behavior: "smooth",
+        block: 'start'
+    })
+}
+
 function Nav() {
+
     return (
         <div className={s.navContainer}>
-            <div className={s.logo} >
+            <div className={s.logo}>
                 <img src={logo} alt={"logo"}/>
             </div>
             <div className={s.nav}>
-                <a href='/23r'>Home</a>
-                <a href='/23r'>About</a>
-                <a href='/23r'>Skills</a>
-                <a href='/23r'>Projects</a>
-                <a href='/23r'>Contact</a>
+                <a href='#home'>Home</a>
+                <a href='#about' onClick={functest}>About</a>
+                <a href='#skills' onClick={functest}>Skills</a>
+                <a href='#works' onClick={functest}>Projects</a>
+                <a href='#footer' onClick={functest}>Contact</a>
             </div>
             <div className={s.mobileMenu}>
                 <MenuPopupState/>

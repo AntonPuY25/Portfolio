@@ -8,7 +8,7 @@ import linkedin from '../img/icons/linkedin.png'
 
 function Footer() {
     return (
-        <div className={s.footer}>
+        <div className={s.footer} id='footer'>
             <div className={s.headerIcons}>
                 <a href={'/#'}><img src={facebook} alt={'facebook'}/></a>
                 <a href={'/#'}><img src={mail} alt={'mail'}/></a>

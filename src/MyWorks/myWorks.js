@@ -5,7 +5,7 @@ import todolistImg from '../img/todolist.jpg'
 
 function MyWorks() {
     return (
-        <div className={s.myWorks}>
+        <div className={s.myWorks} id='works'>
                 <div className={s.works}>
                     <div className={s.title}>
                         <h3>Projects</h3>
