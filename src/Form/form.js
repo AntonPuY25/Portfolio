@@ -10,8 +10,13 @@ const ReduxForm = (props) => {
     return <>
         <form onSubmit={props.handleSubmit} className={s.formik}>
             <div className={s.formName}>
-                <Field component={Input} placeholder='Name' name='name'/>
-                <Field component={Input} placeholder='Email' name='email'/>
+              <span className={s.test}>
+                    <Field component={Input} placeholder='Name' name='name'/>
+
+              </span>
+               <span>
+                    <Field component={Input} placeholder='Email' name='email'/>
+               </span>
             </div>
             <div className={s.formSubject}>
                 <Field component={Input} placeholder='Subject' name='subject'/>

@@ -6,9 +6,9 @@ import Distance from "./DistanceWork/distanceWork";
 import FormComponent from "./Form/formComponent";
 import Footer from "./Footer/footer";
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
-import {functest} from "./Header/Nav/nav";
 import {useDispatch, useSelector} from "react-redux";
 import {setScrollAC} from "./Store/reducer";
+import { Link } from "react-scroll";
 
 function App() {
     const state = useSelector(state => state.reducer.scroll);
@@ -33,9 +33,16 @@ function App() {
             <Distance/>
             <FormComponent/>
             <Footer/>
-            {state ? <a href='#home' onClick={functest} style={{position: 'fixed', bottom: '20px', right: '50px'}}>
-                <ArrowUpwardIcon fontSize={"large"}/>
-            </a> : null}
+            {state ?
+                <Link
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1200}
+                  style={{position: 'fixed', bottom: '20px', right: '50px',cursor:'pointer'}}>
+                <ArrowUpwardIcon fontSize={"large"} color={"primary"}/>
+                </Link> : null}
 
         </div>
     );

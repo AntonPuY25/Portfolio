@@ -1,29 +1,57 @@
 import s from './nav.module.scss';
 import logo from '../../img/portfolio.png'
 import MenuPopupState from "./navMobile";
+import { Link } from "react-scroll";
 
-export const functest = (event) => {
-    event.preventDefault();
 
-    document.querySelector("" + event.currentTarget.hash).scrollIntoView({
-        behavior: "smooth",
-        block: 'start'
-    })
-}
-
-function Nav() {
+function Nav({state}) {
 
     return (
-        <div className={s.navContainer}>
+        <div className={state?s.navContainerTwo:s.navContainer}>
             <div className={s.logo}>
-                <img src={logo} alt={"logo"}/>
+                {!state&&   <img src={logo} alt={"logo"}/>}
             </div>
             <div className={s.nav}>
-                <a href='#home'>Home</a>
-                <a href='#about' onClick={functest}>About</a>
-                <a href='#skills' onClick={functest}>Skills</a>
-                <a href='#works' onClick={functest}>Projects</a>
-                <a href='#footer' onClick={functest}>Contact</a>
+                <Link
+                    activeClass={s.active}
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1200}
+                >Home</Link>
+                <Link
+                    activeClass={s.active}
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1200}
+                >About</Link>
+                <Link
+                    activeClass={s.active}
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1200}
+                >Skills</Link>
+                <Link
+                    activeClass={s.active}
+                    to="works"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1200}
+                >Projects</Link>
+                <Link
+                    activeClass={s.active}
+                    to="footer"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1200}
+                >Contact</Link>
             </div>
             <div className={s.mobileMenu}>
                 <MenuPopupState/>

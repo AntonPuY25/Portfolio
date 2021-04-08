@@ -3,7 +3,7 @@ import {Button} from "@material-ui/core";
 
 function Distance() {
     return (
-        <div className={s.distance}>
+        <div className={s.distance} id='footer' >
             <div className={s.distanceContainer}>
                 <h3>Considering options for remote work</h3>
                     <div className={s.btnDistance}>

@@ -2,15 +2,20 @@ import s from './myWorks.module.scss'
 import Project from "./project";
 import socialNetworkImg from '../img/socilaNetwork.jpg'
 import todolistImg from '../img/todolist.jpg'
+import Fade from 'react-reveal/Fade';
 
 function MyWorks() {
     return (
-        <div className={s.myWorks} id='works'>
+        <div className={s.myWorks} id='works' >
                 <div className={s.works}>
-                    <div className={s.title}>
-                        <h3>Projects</h3>
-                    </div>
-                    <div className={s.allMyWorks}>
+
+                        <Fade left>
+                            <div className={s.title}>
+                        <h3 >Projects</h3>
+                            </div>
+
+                        </Fade>
+                    <div  className={s.allMyWorks}>
 
                         <div>
                             <div>
@@ -34,7 +39,7 @@ function MyWorks() {
 
                             </div>
 
-                            <div>
+                            <div >
                                 <Project title={'Todolist'} aboutProject={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}
                                          style={todolistImg} href={"https://antonpuy25.github.io/ToDoList/"}/>
 
