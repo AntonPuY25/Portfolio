@@ -4,6 +4,7 @@ import s from './project.module.scss'
 const Project = ({title,aboutProject,style,href})=>{
     const divStyle = {
         backgroundImage: 'url(' + style + ')',
+
     };
 
     return<div>
