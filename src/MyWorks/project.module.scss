@@ -96,6 +96,7 @@
       color:$textColor2;
       letter-spacing: 1px;
       margin: 0 0 5px;
+      word-wrap: break-word;
 
     }
 
@@ -108,6 +109,8 @@
       color:$textColor2;
       font-weight: 500;
       line-height: 1.8;
+      word-wrap: break-word;
+
       font-family: "Poppins", sans-serif;
     }
   }

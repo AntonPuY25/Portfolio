@@ -17,7 +17,7 @@ function Footer() {
                 <a href={'/#'}><img src={linkedin} alt={'linkedin'}/></a>
             </div>
             <div className={s.footerInfo}>
-                Copyright © 2017 centurycoding. All Rights Reserved
+                Copyright © 2021 centurycoding. All Rights Reserved
             </div>
         </div>
     );

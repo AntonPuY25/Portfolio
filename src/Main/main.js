@@ -26,19 +26,21 @@ function Main() {
                 </Tilt>
 
                 <div className={s.aboutMeInfo}>
-                    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
-                        Massa tempor nec feugiat nisl pretium fusce id velit ut. Neque vitae tempus quam pellentesque
-                        nec nam. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. </b>
-                    <br/> <br/>
-                    Amet mattis vulputate enim nulla. Porttitor leo a diam sollicitudin tempor id. Scelerisque viverra
-                    mauris in aliquam sem. Mattis aliquam faucibus purus in massa tempor nec. Quisque id diam vel quam
-                    elementum pulvinar etiam non. Non curabitur gravida arcu ac tortor. Tincidunt praesent semper
-                    feugiat nibh sed pulvinar proin gravida.
+                    Front-end developer with experience
+                        in creating SPA using React, Redux,
+                        TS, HTML, CSS. Determined to
+                        become a Full stack developer. Spend
+                        my free time improving competence in
+                        English, and expanding my
+                        professional horizons. Self-motivated,
+                        hard-working, responsible and
+                        competent.
+
+
                     <div className={s.buttonAboutMe}>
                         <Fade right>
                             <Button variant="contained" color="primary">
-                                Download Cv
+                                <a className={'CVlink'} href="https://disk.yandex.by/i/RZ8_EHiLU7Wj-g">Download CV</a>
                             </Button>
 
                         </Fade>

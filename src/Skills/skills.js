@@ -11,11 +11,11 @@ function Skills() {
 
             <p>No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, <br/>to open people’s eyes, to reveal the marvels around.</p>
             <div className={s.skills}>
-                <Skill level={90} nameSkill={'HTML'}/>
+                <Skill level={80} nameSkill={'HTML'}/>
                 <Skill level={80} nameSkill={'CSS'}/>
-                <Skill level={85} nameSkill={'JS'}/>
-                <Skill level={70} nameSkill={'React'}/>
-                <Skill level={90} nameSkill={'Redux'}/>
+                <Skill level={75} nameSkill={'JS'}/>
+                <Skill level={90} nameSkill={'React'}/>
+                <Skill level={85} nameSkill={'Redux'}/>
                 <Skill level={80} nameSkill={'TypeScript'}/>
 
 
