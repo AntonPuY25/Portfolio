@@ -1,20 +1,28 @@
-import {Field, reduxForm} from "redux-form";
+import {Field, InjectedFormProps, reduxForm} from "redux-form";
 import s from './form.module.scss'
 import {Button} from "@material-ui/core";
 import {Input, TextArea} from "./input";
+import {useDispatch} from "react-redux";
+import {sendMailTC} from "../Store/reducer";
+
+type TypeFormData = {
+    name: string
+    email: string
+    subject: string
+    message: string
+}
 
 
-const ReduxForm = (props) => {
-
+const ReduxForm: React.FC<InjectedFormProps<TypeFormData>> = ({handleSubmit}) => {
 
     return <>
-        <form onSubmit={props.handleSubmit} className={s.formik}>
+        <form onSubmit={handleSubmit} className={s.formik}>
             <div className={s.formName}>
               <span className={s.test}>
                     <Field component={Input} placeholder='Name' name='name'/>
 
               </span>
-               <span>
+                <span>
                     <Field component={Input} placeholder='Email' name='email'/>
                </span>
             </div>
@@ -33,11 +41,16 @@ const ReduxForm = (props) => {
         </form>
     </>
 }
-const Form = reduxForm({form: 'HireMe'})(ReduxForm)
+const Form = reduxForm<TypeFormData>(
+    {form: 'HireMe'}
+)
+(ReduxForm)
 
 function ResultForm() {
-    const onSubmit = (formData) => {
-        console.log(formData)
+    const dispatch = useDispatch()
+
+    const onSubmit = (formData: TypeFormData) => {
+        dispatch(sendMailTC(formData.name, formData.email, formData.subject, formData.message))
     }
     return (
         <div>
