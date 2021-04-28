@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cb1b093e.chunk.css",
-    "main.js": "/Portfolio/static/js/main.65ccfdc2.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.65ccfdc2.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.76b73ab7.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.76b73ab7.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.3c1c3ef8.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.3c1c3ef8.js.map",
     "static/js/2.62034960.chunk.js": "/Portfolio/static/js/2.62034960.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.62034960.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.62034960.chunk.js.LICENSE.txt",
     "static/media/Counter.7cda5d3c.jpg": "/Portfolio/static/media/Counter.7cda5d3c.jpg",
     "static/media/Currency-Converter.7b30cd1e.jpg": "/Portfolio/static/media/Currency-Converter.7b30cd1e.jpg",
+    "static/media/Flickr.86036d2e.jpg": "/Portfolio/static/media/Flickr.86036d2e.jpg",
     "static/media/HomeWorks.eff2f7af.jpg": "/Portfolio/static/media/HomeWorks.eff2f7af.jpg",
     "static/media/KinoPoisk.ae27e33e.jpg": "/Portfolio/static/media/KinoPoisk.ae27e33e.jpg",
     "static/media/ava.0ec35a34.jpg": "/Portfolio/static/media/ava.0ec35a34.jpg",
@@ -27,6 +28,6 @@
     "static/js/runtime-main.3c1c3ef8.js",
     "static/js/2.62034960.chunk.js",
     "static/css/main.cb1b093e.chunk.css",
-    "static/js/main.65ccfdc2.chunk.js"
+    "static/js/main.76b73ab7.chunk.js"
   ]
 }
