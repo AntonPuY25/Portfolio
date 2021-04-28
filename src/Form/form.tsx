@@ -51,6 +51,10 @@ function ResultForm() {
 
     const onSubmit = (formData: TypeFormData) => {
         dispatch(sendMailTC(formData.name, formData.email, formData.subject, formData.message))
+        formData.name = ""
+        formData.email = ""
+        formData.subject = ""
+        formData.message = ""
     }
     return (
         <div>

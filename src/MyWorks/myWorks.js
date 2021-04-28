@@ -2,6 +2,7 @@ import s from './myWorks.module.scss'
 import Project from "./project";
 import socialNetworkImg from '../img/socilaNetwork.jpg'
 import KinoPoisk from '../img/KinoPoisk.jpg'
+import Flickr from '../img/Flickr.jpg'
 import Counter from '../img/Counter.jpg'
 import CurrencyConverter from '../img/Currency-Converter.jpg'
 import HomeWorks from '../img/HomeWorks.jpg'
@@ -43,10 +44,11 @@ function MyWorks() {
                     </div>
 
                     <div>
+
                         <div>
-                            <Project title={'KinoPoisk'}
-                                     aboutProject={'Unfortunately, requests through github-phages do not work. Well, you can look at the code))'}
-                                     style={KinoPoisk} href={"https://antonpuy25.github.io/SearchMovies/"}/>
+                            <Project title={'Photo Search'}
+                                     aboutProject={'Photo search engine using API Flickr. Also save favorite photos to your bookmarks.'}
+                                     style={Flickr} href={"https://antonpuy25.github.io/Flickr/"}/>
 
                         </div>
 
@@ -73,6 +75,12 @@ function MyWorks() {
                             <Project title={'Counter'}
                                      aboutProject={''}
                                      style={Counter} href={"https://antonpuy25.github.io/Counter/"}/>
+
+                        </div>
+                        <div>
+                            <Project title={'KinoPoisk'}
+                                     aboutProject={'Unfortunately, requests through github-phages do not work. Well, you can look at the code))'}
+                                     style={KinoPoisk} href={"https://antonpuy25.github.io/SearchMovies/"}/>
 
                         </div>
 
