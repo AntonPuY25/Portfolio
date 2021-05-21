@@ -22,7 +22,7 @@ const Project = ({title,aboutProject,style,href})=>{
                     {title}
                 </div>
                 <div className={s.textProject}>
-                    <p>{aboutProject}</p>
+                    {aboutProject}
 
                 </div>
             </div>
