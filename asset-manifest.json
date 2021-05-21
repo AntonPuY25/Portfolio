@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f9b725ff.chunk.css",
-    "main.js": "/Portfolio/static/js/main.2129ae7b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.2129ae7b.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.d26beab7.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d26beab7.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.3c1c3ef8.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.3c1c3ef8.js.map",
     "static/js/2.31fe5173.chunk.js": "/Portfolio/static/js/2.31fe5173.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/codewars.d56927b7.png": "/Portfolio/static/media/codewars.d56927b7.png",
     "static/media/header.module.scss": "/Portfolio/static/media/fon.55bef102.jpg",
     "static/media/git.25d24453.png": "/Portfolio/static/media/git.25d24453.png",
+    "static/media/github.a0927d90.jpg": "/Portfolio/static/media/github.a0927d90.jpg",
     "static/media/portfolio.0f8e7579.png": "/Portfolio/static/media/portfolio.0f8e7579.png",
     "static/media/socilaNetwork.0507536d.jpg": "/Portfolio/static/media/socilaNetwork.0507536d.jpg",
     "static/media/todolist.8c5d0615.jpg": "/Portfolio/static/media/todolist.8c5d0615.jpg"
@@ -31,6 +32,6 @@
     "static/js/runtime-main.3c1c3ef8.js",
     "static/js/2.31fe5173.chunk.js",
     "static/css/main.f9b725ff.chunk.css",
-    "static/js/main.2129ae7b.chunk.js"
+    "static/js/main.d26beab7.chunk.js"
   ]
 }
